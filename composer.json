@@ -1,0 +1,26 @@
+{
+  "name": "shebaoting/money-erc20-deposit",
+  "description": "ERC-20 token deposit support for shebaoting/money with Alchemy webhooks (Polygon/BSC)",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "keywords": ["flarum", "money", "erc20", "crypto", "polygon", "bsc", "alchemy", "web3"],
+  "require": {
+    "flarum/core": "^1.0",
+    "shebaoting/money": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ShebaoTing\\MoneyErc20Deposit\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Money - ERC20 Deposit (Polygon/BSC)",
+      "icon": {
+        "name": "fas fa-wallet",
+        "backgroundColor": "#8247e5",
+        "color": "#fff"
+      }
+    }
+  }
+}
